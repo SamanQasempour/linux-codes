@@ -11,3 +11,6 @@ sudo - su
 cd /var/log
 ls -ltrh
 cat syslog
+pwd
+mkdir
+touch test.txt
