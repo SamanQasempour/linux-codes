@@ -14,3 +14,10 @@ cat syslog
 pwd
 mkdir
 touch test.txt
+
+less /var/log/dmesg
+sudo dmesg | less
+less /var/log/boot.log
+cat /var/log/boot.log
+pstree
+ps
