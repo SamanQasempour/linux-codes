@@ -21,3 +21,6 @@ less /var/log/boot.log
 cat /var/log/boot.log
 pstree
 ps
+
+sudo systemctl isolate multi-user.taget
+sudo systemctl isolate graphical.taget
